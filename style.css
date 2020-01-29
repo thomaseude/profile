@@ -1,0 +1,79 @@
+
+  body {
+    background-color: #FFFFFF ;
+    font-family: Roboto;
+    color: #525F7F;
+    font-size: 1em;
+    line-height: 2em;
+    border: 5em;
+  }
+
+  h1, h2, h3 {
+    font-family: Roboto;
+    font-size: 2em;
+    line-height: 10px;
+    color: #525F7F;
+    line-height:1em;
+  }
+
+  li {
+    color: #24B47E;
+  }
+
+  img {
+    height:100px;
+    width: 100px;
+  }
+
+  ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    background-color: #24B47E;
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  .card-grey{
+    background-color: #F6F9FC;
+    border-radius: 4px;
+    box-shadow: 12px 12px 2px 1px #F6F9FC10;
+    padding: 30px;
+    border: 1px solid lightgrey;
+    text-align: center;
+  }
+
+  .list-inline > li {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  }
+
+  .container{
+    margin:0px auto;
+  }
+
+
+
+  @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
